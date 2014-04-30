@@ -1,0 +1,7 @@
+<ExtensionObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Definition.xsd" Label="GoogleMaps - Heatmap" Description="GoogleMaps Extension for Heatmaps" PageHeight="20000">
+	<Dimension Label="Latitude" Initial="" DropTarget="Latitude"/>
+	<Dimension Label="Longitude" Initial="" DropTarget="Longitude"/>
+	<Measurement Label="Measurement" Initial="=1" Expression="1"/>
+	<Initiate Name="Chart.Dimension.0.SuppressNull" value="1"/>
+	<Initiate Name="Chart.Dimension.1.SuppressNull" value="1"/>
+</ExtensionObject>
