@@ -1,7 +1,13 @@
-<ExtensionObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Definition.xsd" Label="GoogleMaps - Heatmap" Description="GoogleMaps Heatmaps" PageHeight="200000">
-	<Dimension Label="Latitude" Initial="" DropTarget="Latitude"/>
-	<Dimension Label="Longitude" Initial="" DropTarget="Longitude"/>
-	<Measurement Label="Measurement" Initial="Sum(lat)"/>
-	<Initiate Name="Chart.Dimension.0.SuppressNull" value="1"/>
+<ExtensionObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="Definition.xsd" Label="GoogleMaps - Heatmap" Description="GoogleMaps Extension for Heatmaps" PageHeight="20000">
+	<Dimension Label="Latitude" Initial="lATITUDE" DropTarget="Latitude"/>
+	<Dimension Label="Longitude" Initial="LONGITUDE" DropTarget="Longitude"/>
+	<Measurement Label="Measurement" Initial="2" Expression="2"/>
+	<Measurement Label="Popup Message" Initial="1" Expression="1"/>
+    <Text Label="Heat Map Radius (Meters)" Type="text"  Initial = "=200" Width="400" />
+	<Text Label="Show Points at zoom level" Type="text" Initial = "=12" Width="400" /> 
+	<Text Label="Point size (Meters)" Type="text" Initial = "=15" Width="400" />
+    <Text Label="Point Fill Color" Type="color" Expression ="#000000" Width="400" />
+    <Initiate Name="Chart.Dimension.0.SuppressNull" value="1"/>
 	<Initiate Name="Chart.Dimension.1.SuppressNull" value="1"/>
 </ExtensionObject>

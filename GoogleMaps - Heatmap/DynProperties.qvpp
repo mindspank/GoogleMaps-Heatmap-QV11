@@ -22,6 +22,26 @@
 	<div class='prop-grid_span-10 prop-grid_last'>
 		<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.0.0.Definition'></div>
 	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Popup Message</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.1.0.Definition'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Heat Map Radius (Meters)</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.0.Content'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Show Points at zoom level</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.1.Content'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Point size (Meters)</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.2.Content'></div>
+	</div><br />
+	<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Point Fill Color</div>
+	<div class='prop-grid_span-10 prop-grid_last'>
+		<div class='prop-grid_span-1 prop-grid_last' propicontype='singlecolor' avq='prop_dlgbutton:.Chart.Text.3.Content:Color.qvpp'></div>
+	</div><br />
 
 		</div>
 		<h3 class="prop-h3 accordion-shadow" avq="activeAccordionHeader:.:GenericPresentationFoldout.qvpp">
