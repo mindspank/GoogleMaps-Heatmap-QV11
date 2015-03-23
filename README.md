@@ -1,7 +1,7 @@
 # GoogleMaps-Heatmap-QV11
-QV11 Extension Object - Heatmap layer on Google Maps
-Major contributions by Pablo S. Labbe Ibaceta - pablo.labbe@analitika.com.br
-
+QV11 Extension Object - Heatmap layer on Google Maps  
+Major contributions by Pablo S. Labbe Ibaceta - pablo.labbe@analitika.com.br  
+  
 ## Properties
 Lat: Latitude field in your data  
 Lng: Longitude field in your data  
